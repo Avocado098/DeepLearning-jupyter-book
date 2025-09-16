@@ -4,4 +4,4 @@ logo: images/me.jpg
 
 html:
   extra_css:
-    - custom.css
+    - _static/custom.css

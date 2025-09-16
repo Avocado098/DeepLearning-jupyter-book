@@ -1,3 +1,15 @@
+/* Background for the whole page */
 body {
-  background-color: #f4f9ff; /* light blue background */
+    background-image: url(https://i.pinimg.com/1200x/39/95/d4/3995d4dcfb99a5b967830819052a4b8a.jpg); /* put your image in _static/images/ */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;  /* Makes text visible on dark bg */
+}
+
+/* Content box style */
+.bd-content {
+    background: rgba(0, 0, 0, 0.6); /* semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
 }
