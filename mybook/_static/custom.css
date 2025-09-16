@@ -13,3 +13,39 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+------------------------------
+/* Sidebar */
+.bd-sidebar {
+    background: #0b0c10; /* dark sidebar */
+    color: white;
+}
+
+.bd-sidebar a {
+    color: #66fcf1;
+    font-weight: bold;
+}
+
+/* Profile picture */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #66fcf1;
+}
+
+------------------------------
+/* Remove left gap in sidebar */
+.bd-sidebar {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* Make the search bar and sidebar content align flush with the left */
+.bd-sidebar .bd-search,
+.bd-sidebar .bd-nav {
+    margin-left: 0 !important;
+    padding-left: 10px; /* keep small padding for readability */
+}
