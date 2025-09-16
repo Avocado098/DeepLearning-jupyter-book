@@ -1,9 +1,16 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+  - file: about
+  - file: portfolio
+  - file: contact
+
+  - part: "Labs"
+    chapters:
+      - file: labs/lab1
+      - file: labs/lab2
+
+  - part: "Projects"
+    chapters:
+      - file: projects/canopy_reforestation
+      - file: projects/bus_t_in_time
