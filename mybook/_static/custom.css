@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
 }
 
-------------------------------
+
 /* Sidebar */
 .bd-sidebar {
     background: #0b0c10; /* dark sidebar */
@@ -36,16 +36,16 @@ body {
     border: 3px solid #66fcf1;
 }
 
-------------------------------
-/* Remove left gap in sidebar */
-.bd-sidebar {
+
+/* Force sidebar to stick to very left edge */
+.bd-sidebar-primary {
     margin-left: 0 !important;
     padding-left: 0 !important;
 }
 
-/* Make the search bar and sidebar content align flush with the left */
-.bd-sidebar .bd-search,
-.bd-sidebar .bd-nav {
+/* Remove body margins that may push sidebar */
+.bd-container {
     margin-left: 0 !important;
-    padding-left: 10px; /* keep small padding for readability */
+    padding-left: 0 !important;
 }
+
